@@ -230,6 +230,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+.userName {
+  color:#fff ;
+}
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -284,7 +288,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   animation: updown 3s linear infinite;
+  height: 30rem;
+  width: 25rem;
 }
+
 @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -346,6 +353,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
   background-color: black;
 }
+
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
@@ -376,7 +384,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 17px 0;
   color: #fff;
   width: 100%;
-  font-size: 17px;
+  font-size:17px;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
@@ -384,6 +392,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
+
+.project .nav.nav-pills .nav-link:hover {
+  cursor: pointer;
+}
+
 .project .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
@@ -419,6 +432,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
   margin-bottom: 24px;
 }
+
+.proj-img {
+  height: 260px;
+}
+
+.proj-imgbx:hover {
+  cursor: pointer;
+}
+
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -457,6 +479,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+
+.third-pane-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+}
+
+.github-btn-link {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.github-btn-link:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
 .background-image-right {
   top: 20%;
   position: absolute;
@@ -546,7 +588,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.newsletter-bx {
+.quote-bx {
   background: #FFFFFF;
   border-radius: 55px;
   color: #121212;
@@ -554,7 +596,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 80px;
   margin-top: -122px;
 }
-.newsletter-bx h3 {
+.quote-bx h3 {
   font-weight: 700;
   letter-spacing: 0.5px;
   line-height: 1.2em;
@@ -606,7 +648,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   border-radius: 18px;
 }
-.footer img {
+.footer-socials {
   width: 26%;
 }
 .footer p {
@@ -615,4 +657,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+.footer-github {
+  width: 13%;
+}
+
+.footer-github:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }

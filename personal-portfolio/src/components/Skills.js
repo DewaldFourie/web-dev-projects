@@ -1,10 +1,18 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+
+
+import javaS from "../assets/img/javascript.png"
+import python from "../assets/img/python.png"
+import reactIcon from "../assets/img/react.png"
+import html5 from "../assets/img/html5.png"
+import css from "../assets/img/css.png"
+import git from "../assets/img/git.png"
+import sql from "../assets/img/sql.png"
+import bootstrap from "../assets/img/bootstrap.png"
+import java from "../assets/img/java.png"
+import api from "../assets/img/api.png"
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -38,27 +46,51 @@ export const Skills = () => {
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={javaS} alt="" />
+                                <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src={python} alt="" />
+                                <h5>Python</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src={reactIcon} alt="" />
+                                <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={html5} alt="" />
+                                <h5>HTML5</h5>
+                            </div>
+                            <div className="item">
+                                <img src={css} alt="" />
+                                <h5>CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={git} alt="" />
+                                <h5>Git</h5>
+                            </div>
+                            <div className="item">
+                                <img src={sql} alt="Imge" />
+                                <h5>SQL</h5>
+                            </div>
+                            <div className="item">
+                                <img src={bootstrap} alt="" />
+                                <h5>Bootstrap</h5>
+                            </div>
+                            <div className="item">
+                                <img src={java} alt="" />
+                                <h5>Java</h5>
+                            </div>
+                            <div className="item">
+                                <img src={api} alt="" />
+                                <h5>API's</h5>
                             </div>
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   )
 }
