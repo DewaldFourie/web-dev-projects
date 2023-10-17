@@ -9,5 +9,10 @@
             "src": "build",  
             "use": "@vercel/static"
         }
+    ],
+    "routes": [
+        { "src": "/", "dest": "/build/index.html" },
+        { "src": "/api/(.*)", "dest": "server.js" }
     ]
+
 }
