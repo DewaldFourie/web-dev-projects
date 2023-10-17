@@ -8,6 +8,7 @@ require('dotenv').config();
 const PORT = process.env.PORT || 3001;
 
 const app = express();
+app.use(express.static(path.resolve(__dirname, './build')));
 app.use(cors());
 app.use(bodyParser.json())
 
@@ -55,6 +56,10 @@ app.post("/api/contact", bodyParser.urlencoded({ extended: false }), (req, res) 
     } 
   })
 
+})
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, './build', 'index.html'));
 })
 
 app.listen(PORT, () => {
