@@ -32,7 +32,7 @@ contactEmail.verify((error) => {
   }
 })
 
-app.post("/api/contact", express.json(), (req, res) => {
+app.post("/api/contact", bodyParser.urlencoded({ extended: false }), (req, res) => {
   const name = req.body.firstName + " " + req.body.lastName;
   const email = req.body.email;
   const phone =  req.body.phone;
