@@ -7,7 +7,7 @@ export const Quote = () => {
       <Col lg={12}>
         <div className="quote-bx wow slideInUp">
           <Row>
-              <h3>"Loyalty is not won by being first. It is won by being best" - Stefan Persson</h3>
+              <h3>"Success seems to be connected to action. Successful people keep moving. They make mistakes, but they never quit." - J.W. Marriott</h3>
           </Row>
         </div>
       </Col>

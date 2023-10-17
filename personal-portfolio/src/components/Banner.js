@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import dewaldPP from "../assets/img/dewaldPp.png"
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import { ArrowDownCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -47,6 +47,16 @@ export const Banner = () => {
     }
   }
 
+  const downloadResume = () => {
+    const resumeUrl = '/DewaldFourieResume1.pdf'//path to resume in public folder 
+
+    const downloadLink = document.createElement('a');
+    downloadLink.href = resumeUrl;
+    downloadLink.download = 'dewaldFourieResume.pdf'
+
+    downloadLink.click();
+  }
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -58,7 +68,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Dewald, Aspiring`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Software Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={downloadResume}>Download Resume <ArrowDownCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

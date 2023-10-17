@@ -76,6 +76,8 @@ input:focus, textarea:focus, select:focus {
 
 p.success {
 	color: green;
+  font-weight: bold;
+  font-size: large;
 }
 
 p.danger {
@@ -593,7 +595,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 55px;
   color: #121212;
   padding: 85px 125px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   margin-top: -122px;
 }
 .quote-bx h3 {

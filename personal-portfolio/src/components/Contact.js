@@ -75,14 +75,14 @@ export const Contact = () => {
                     </Col>
                     <Col size={12} className="px-1">
                       <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                      <button type="submit"><span>{buttonText}</span></button>
-                    </Col>
-                    {
+                      <div>
+                      {
                       status.message &&
-                      <Col>
-                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                      </Col>
-                    }
+                      <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
+                      }
+                      <button type="submit"><span>{buttonText}</span></button>
+                      </div>
+                    </Col>
                   </Row>
                 </form>
               </div>}
