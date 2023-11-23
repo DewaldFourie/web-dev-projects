@@ -14,6 +14,7 @@ import library from "../assets/img/library.png"
 import dashboard from "../assets/img/dashboard.png"
 import tictactoe from "../assets/img/tictactoe.png"
 import calculator from "../assets/img/calculator.png"
+import shopping from "../assets/img/shopping-app-ss.png"
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import githubLogo from "../assets/img/githubLogo.png"
@@ -28,6 +29,12 @@ export const Projects = () => {
       description: "Web Application",
       imgUrl: rwcPredictor,
       projURL: 'https://rwc-2023-predictions.vercel.app/'
+    },
+    {
+      title: "Shopping Cart",
+      description: "E-Commerce",
+      imgUrl: shopping,
+      projURL: 'https://e-commerce-shop-mocha.vercel.app/home'
     },
     {
       title: "Memory Game",
@@ -53,12 +60,7 @@ export const Projects = () => {
       imgUrl: todoApp,
       projURL: 'https://dewaldfourie.github.io/Todo-List/'
     },
-    {
-      title: "Weather Application",
-      description: "Web Application",
-      imgUrl: weatherApp,
-      projURL: 'https://dewaldfourie.github.io/Weather-App/#'
-    },
+
   ];
 
   const projects2 = [
@@ -75,10 +77,10 @@ export const Projects = () => {
       projURL: "https://dewaldfourie.github.io/restaurant-page/",
     },
     {
-      title: "Library Database",
-      description: "Application",
-      imgUrl: library,
-      projURL: "https://dewaldfourie.github.io/Library-Project/",
+      title: "Weather Application",
+      description: "Web Application",
+      imgUrl: weatherApp,
+      projURL: 'https://dewaldfourie.github.io/Weather-App/#'
     },
     {
       title: "Admin Dashboard",
@@ -87,10 +89,10 @@ export const Projects = () => {
       projURL: "https://dewaldfourie.github.io/Admin-Dashboard/",
     },
     {
-      title: "Tic-Tac-Toe",
-      description: "Game",
-      imgUrl: tictactoe,
-      projURL: "https://dewaldfourie.github.io/TicTacToe/",
+      title: "Library Database",
+      description: "Application",
+      imgUrl: library,
+      projURL: "https://dewaldfourie.github.io/Library-Project/",
     },
     {
       title: "Calculator",
