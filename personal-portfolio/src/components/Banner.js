@@ -4,7 +4,7 @@ import dewaldPP from "../assets/img/dewaldPp.png"
 import { ArrowDownCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import headShot from "../assets/img/headshot1.jpeg"
+import headShot from "../assets/img/headshot2.jpeg"
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
