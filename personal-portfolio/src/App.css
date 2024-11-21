@@ -72,6 +72,7 @@ input:focus, textarea:focus, select:focus {
 		max-width: 100%;
 		padding: 0 150px;
 	}
+
 }
 
 p.success {
@@ -245,6 +246,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -256,13 +258,33 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 .banner h1 {
-  font-size: 65px;
+  font-size: 50px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
   display: block;
 }
+
+.banner-title {
+  height: 110px; /* adjust the value as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width:1200px) {
+  .banner-title {
+    height: 250px;
+  }
+}
+
+@media (max-width:767px) {
+  .banner-title {
+    height: 250px;
+  }
+}
+
+
 .banner p {
   color: #B8B8B8;
   font-size: 18px;
@@ -320,6 +342,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .skill h2 {
 	font-size: 45px;
@@ -330,8 +356,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    margin: 14px 0 25px 0;
 }
+
+.item h5 {
+  margin-top: 10px;
+}
+
+@media (max-width:1024px) {
+  .item h5 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width:768px) {
+  .item h5 {
+    font-size: 10px;
+  }
+}
+
 .skill-slider {
   width: 80%;
   margin: 0 auto;
@@ -341,6 +384,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 50%;
   margin: 0 auto 15px auto;
 }
+
+.skill .item {
+  background-color: #000;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-responsive-3d-carousel__item {
+  border-radius: 20px;
+}
+
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -348,6 +405,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+
+
 
 /************ Projects Css ************/
 .project {
