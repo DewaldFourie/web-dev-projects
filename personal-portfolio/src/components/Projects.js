@@ -7,6 +7,8 @@ import cvApp from "../assets/img/CV-APP-SS.png"
 import battleships from "../assets/img/battleships.png"
 import weatherApp from "../assets/img/weatherApp.png"
 import todoApp from "../assets/img/to-do-app.png"
+import blogSite from "../assets/img/blogSite.png"
+import inventoryApp from "../assets/img/inventoryApp.png"
 
 import tindog from "../assets/img/tindog.png"
 import scoops from "../assets/img/heavenlyScoops.png"
@@ -25,22 +27,16 @@ export const Projects = () => {
 
   const projects1 = [
     {
-      title: "RWC 2023 Predictions",
-      description: "Web Application",
-      imgUrl: rwcPredictor,
-      projURL: 'https://rwc-2023-predictions.vercel.app/'
-    },
-    {
       title: "Shopping Cart",
       description: "E-Commerce",
       imgUrl: shopping,
       projURL: 'https://e-commerce-shop-mocha.vercel.app/home'
     },
     {
-      title: "Memory Game",
-      description: "Game",
-      imgUrl: memoryGame,
-      projURL: 'https://memory-game-wheat-nu.vercel.app/'
+      title: "RWC 2023 Predictions",
+      description: "Web Application",
+      imgUrl: rwcPredictor,
+      projURL: 'https://rwc-2023-predictions.vercel.app/'
     },
     {
       title: "CV Generator",
@@ -49,10 +45,16 @@ export const Projects = () => {
       projURL: 'https://cv-application-kohl-two.vercel.app/'
     },
     {
-      title: "Battleship",
-      description: "Game",
-      imgUrl: battleships,
-      projURL: 'https://dewaldfourie.github.io/Battle-Ships/'
+      title: "Inventory Management",
+      description: "Database Application",
+      imgUrl: inventoryApp,
+      projURL: 'https://fapple-inventory-app.glitch.me/catalog'
+    },
+    {
+      title: "Travel Blog",
+      description: "CMS Application",
+      imgUrl: blogSite,
+      projURL:"https://blog-website-app-red.vercel.app"
     },
     {
       title: "To-Do Application",
@@ -61,14 +63,21 @@ export const Projects = () => {
       projURL: 'https://dewaldfourie.github.io/Todo-List/'
     },
 
+
   ];
 
   const projects2 = [
     {
-      title: "TinDog",
-      description: "Website Design",
-      imgUrl: tindog,
-      projURL: "https://dewaldfourie.github.io/TinDog-application/",
+      title: "Memory Game",
+      description: "Game",
+      imgUrl: memoryGame,
+      projURL: 'https://memory-game-wheat-nu.vercel.app/'
+    },
+    {
+      title: "Admin Dashboard",
+      description: "Dashboard Design",
+      imgUrl: dashboard,
+      projURL: "https://dewaldfourie.github.io/Admin-Dashboard/",
     },
     {
       title: "Restaurant Website",
@@ -83,22 +92,16 @@ export const Projects = () => {
       projURL: 'https://dewaldfourie.github.io/Weather-App/#'
     },
     {
-      title: "Admin Dashboard",
-      description: "Dashboard Design",
-      imgUrl: dashboard,
-      projURL: "https://dewaldfourie.github.io/Admin-Dashboard/",
+      title: "Battleship",
+      description: "Game",
+      imgUrl: battleships,
+      projURL: 'https://dewaldfourie.github.io/Battle-Ships/'
     },
     {
-      title: "Library Database",
-      description: "Application",
-      imgUrl: library,
-      projURL: "https://dewaldfourie.github.io/Library-Project/",
-    },
-    {
-      title: "Calculator",
-      description: "Application",
-      imgUrl: calculator,
-      projURL: "https://dewaldfourie.github.io/Calculator_JS/",
+      title: "TinDog",
+      description: "Website Design",
+      imgUrl: tindog,
+      projURL: "https://dewaldfourie.github.io/TinDog-application/",
     },
   ];
 

@@ -662,6 +662,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   line-height: 1.2em;
 }
+
+@media (max-width:575px) {
+  .quote-bx {
+    padding: 20px 50px;
+    margin-top: -70px;
+  }
+
+  .quote-bx h3 {
+    font-size: 18px;
+  }
+}
+
 .new-email-bx {
   background: #fff;
   padding: 5px;
