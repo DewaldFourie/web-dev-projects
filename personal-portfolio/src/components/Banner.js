@@ -4,6 +4,7 @@ import dewaldPP from "../assets/img/dewaldPp.png"
 import { ArrowDownCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import headShot from "../assets/img/headshot1.jpeg"
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -76,7 +77,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img className="image-pp" src={dewaldPP} alt="Header Img"/>
+                  <img className="image-pp" src={headShot} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
           </Col>
