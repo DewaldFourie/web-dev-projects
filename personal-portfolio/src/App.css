@@ -245,6 +245,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
 }
 
 .banner .tagline {
@@ -275,7 +276,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (max-width:1200px) {
   .banner-title {
     height: 250px;
-  }
+    
+  } 
 }
 
 @media (max-width:767px) {
@@ -283,7 +285,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     height: 250px;
   }
 }
-
 
 .banner p {
   color: #B8B8B8;
@@ -311,12 +312,53 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
+  display: inline-block;
   animation: updown 4s linear infinite;
   height: 30rem;
   width: 25rem;
   border-radius: 50%;
   margin-left: 2rem;
   margin-bottom: 5rem;
+}
+
+@media (max-width: 1000px) {
+  .banner img {
+    height: 25rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin-left: 4rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner img {
+    height: 25rem;
+    width: 22rem;
+    border-radius: 50%;
+    margin-left: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .banner img {
+    height: 25rem;
+    width: 22rem;
+    border-radius: 50%;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .banner img {
+    height: 18rem;
+    width: 15rem;
+    border-radius: 50%;
+
+    margin-top: 2rem;
+  }
 }
 
 @keyframes updown {
