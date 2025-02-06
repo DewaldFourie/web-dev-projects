@@ -9,6 +9,7 @@ import weatherApp from "../assets/img/weatherApp.png"
 import todoApp from "../assets/img/to-do-app.png"
 import blogSite from "../assets/img/blogSite.png"
 import inventoryApp from "../assets/img/inventoryApp.png"
+import imagetaggingApp from "../assets/img/imagetaggingApp.png"
 
 import tindog from "../assets/img/tindog.png"
 import scoops from "../assets/img/heavenlyScoops.png"
@@ -57,10 +58,10 @@ export const Projects = () => {
       projURL:"https://blog-website-app-red.vercel.app"
     },
     {
-      title: "To-Do Application",
-      description: "Web Application",
-      imgUrl: todoApp,
-      projURL: 'https://dewaldfourie.github.io/Todo-List/'
+      title: "Image Tagging App",
+      description: "Game",
+      imgUrl: imagetaggingApp,
+      projURL: 'https://image-tagging-fullstack.vercel.app/'
     },
 
 
@@ -80,10 +81,10 @@ export const Projects = () => {
       projURL: "https://dewaldfourie.github.io/Admin-Dashboard/",
     },
     {
-      title: "Restaurant Website",
-      description: "Website Design",
-      imgUrl: scoops,
-      projURL: "https://dewaldfourie.github.io/restaurant-page/",
+      title: "To-Do Application",
+      description: "Web Application",
+      imgUrl: todoApp,
+      projURL: 'https://dewaldfourie.github.io/Todo-List/'
     },
     {
       title: "Weather Application",
