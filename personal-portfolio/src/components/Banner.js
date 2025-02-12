@@ -67,9 +67,9 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1 className="banner-title">{`Hi! I'm Dewald, Aspiring`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Software Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a dedicated individual with a strong passion for software development and a knack for solving complex problems. My enthusiasm for learning drives me to stay updated with the latest technologies and their potential applications. I am known for my diligent work ethic and a reputation for trustworthiness. I firmly believe that unwavering dedication and persistence are the keys to overcoming any challenge in life.</p>
-                  <button onClick={downloadResume}>Download Resume <ArrowDownCircle size={25} /></button>
+                <h1 className="banner-title">{`Hi! I'm Dewald, a Dedicated`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Software Developer" ]'><span className="wrap">{text}</span></span></h1>
+                <p>I’m a problem-solving <strong>Software Developer</strong> passionate about building scalable, efficient, and user-friendly applications. My expertise includes <strong>JavaScript, Node.js, Python</strong>, and other modern web technologies. I thrive on learning, adapting, and pushing the boundaries of what’s possible with code.</p>
+                <button onClick={downloadResume}>Download Resume <ArrowDownCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
