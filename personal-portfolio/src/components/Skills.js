@@ -3,7 +3,7 @@
 import javaS from "../assets/img/javascript.png"
 import python from "../assets/img/python.png"
 import reactIcon from "../assets/img/react.png"
-import html5 from "../assets/img/html5.png"
+import nodeJs from "../assets/img/nodeJs.png"
 import css from "../assets/img/css.png"
 import git from "../assets/img/git.png"
 import sql from "../assets/img/sql.png"
@@ -33,8 +33,8 @@ export const Skills = () => {
             <h5>React</h5>
         </div>,
         <div className="item">
-            <img src={html5} alt="" />
-            <h5>HTML5</h5>
+            <img src={nodeJs} alt="" />
+            <h5>NodeJS</h5>
         </div>,
         <div className="item">
             <img src={css} alt="" />
