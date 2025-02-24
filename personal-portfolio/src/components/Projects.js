@@ -10,6 +10,7 @@ import todoApp from "../assets/img/to-do-app.png"
 import blogSite from "../assets/img/blogSite.png"
 import inventoryApp from "../assets/img/inventoryApp.png"
 import imagetaggingApp from "../assets/img/imagetaggingApp.png"
+import senseAi from "../assets/img/SenseAI.jpg"
 
 import tindog from "../assets/img/tindog.png"
 import scoops from "../assets/img/heavenlyScoops.png"
@@ -28,7 +29,7 @@ export const Projects = () => {
 
   const projects1 = [
     {
-      title: "Shopping Cart",
+      title: "VirtueVogue",
       description: "E-Commerce",
       imgUrl: shopping,
       projURL: 'https://e-commerce-shop-mocha.vercel.app/home'
@@ -40,13 +41,13 @@ export const Projects = () => {
       projURL: 'https://rwc-2023-predictions.vercel.app/'
     },
     {
-      title: "CV Generator",
-      description: "Web Application",
-      imgUrl: cvApp,
-      projURL: 'https://cv-application-kohl-two.vercel.app/'
+      title: "SenseAI",
+      description: "Facial Recognition App",
+      imgUrl: senseAi,
+      projURL: 'https://face-recognition-app-pink.vercel.app/'
     },
     {
-      title: "Inventory Management",
+      title: "Fapple Inventory",
       description: "Database Application",
       imgUrl: inventoryApp,
       projURL: 'https://fapple-inventory-app.glitch.me/catalog'
@@ -58,16 +59,29 @@ export const Projects = () => {
       projURL:"https://blog-website-app-red.vercel.app"
     },
     {
-      title: "Image Tagging App",
-      description: "Game",
+      title: "FINDR",
+      description: "Image Tagging App",
       imgUrl: imagetaggingApp,
       projURL: 'https://image-tagging-fullstack.vercel.app/'
     },
 
 
+
   ];
 
   const projects2 = [
+    {
+      title: "Weather Application",
+      description: "Web Application",
+      imgUrl: weatherApp,
+      projURL: 'https://dewaldfourie.github.io/Weather-App/#'
+    },
+    {
+      title: "To-Do Application",
+      description: "Web Application",
+      imgUrl: todoApp,
+      projURL: 'https://dewaldfourie.github.io/Todo-List/'
+    },
     {
       title: "Memory Game",
       description: "Game",
@@ -81,29 +95,18 @@ export const Projects = () => {
       projURL: "https://dewaldfourie.github.io/Admin-Dashboard/",
     },
     {
-      title: "To-Do Application",
-      description: "Web Application",
-      imgUrl: todoApp,
-      projURL: 'https://dewaldfourie.github.io/Todo-List/'
-    },
-    {
-      title: "Weather Application",
-      description: "Web Application",
-      imgUrl: weatherApp,
-      projURL: 'https://dewaldfourie.github.io/Weather-App/#'
-    },
-    {
       title: "Battleship",
       description: "Game",
       imgUrl: battleships,
       projURL: 'https://dewaldfourie.github.io/Battle-Ships/'
     },
     {
-      title: "TinDog",
-      description: "Website Design",
-      imgUrl: tindog,
-      projURL: "https://dewaldfourie.github.io/TinDog-application/",
+      title: "CV Generator",
+      description: "Web Application",
+      imgUrl: cvApp,
+      projURL: 'https://cv-application-kohl-two.vercel.app/'
     },
+
   ];
 
   const openGitHubUrl = () => {
