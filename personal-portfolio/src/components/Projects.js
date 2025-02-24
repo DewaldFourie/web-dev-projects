@@ -29,10 +29,10 @@ export const Projects = () => {
 
   const projects1 = [
     {
-      title: "VirtueVogue",
-      description: "E-Commerce",
-      imgUrl: shopping,
-      projURL: 'https://e-commerce-shop-mocha.vercel.app/home'
+      title: "SenseAI",
+      description: "Facial Recognition App",
+      imgUrl: senseAi,
+      projURL: 'https://face-recognition-app-pink.vercel.app/'
     },
     {
       title: "RWC 2023 Predictions",
@@ -41,10 +41,10 @@ export const Projects = () => {
       projURL: 'https://rwc-2023-predictions.vercel.app/'
     },
     {
-      title: "SenseAI",
-      description: "Facial Recognition App",
-      imgUrl: senseAi,
-      projURL: 'https://face-recognition-app-pink.vercel.app/'
+      title: "VirtueVogue",
+      description: "E-Commerce",
+      imgUrl: shopping,
+      projURL: 'https://e-commerce-shop-mocha.vercel.app/home'
     },
     {
       title: "Fapple Inventory",
