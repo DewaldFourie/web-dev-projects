@@ -11,6 +11,7 @@ import blogSite from "../assets/img/blogSite.png"
 import inventoryApp from "../assets/img/inventoryApp.png"
 import imagetaggingApp from "../assets/img/imagetaggingApp.png"
 import senseAi from "../assets/img/SenseAI.jpg"
+import ciCdDevops from "../assets/img/ci-cd-devops.png"
 
 import tindog from "../assets/img/tindog.png"
 import scoops from "../assets/img/heavenlyScoops.png"
@@ -35,16 +36,16 @@ export const Projects = () => {
       projURL: 'https://face-recognition-app-pink.vercel.app/'
     },
     {
+      title: "CI/CD DevOps Monitor",
+      description: "Web Application",
+      imgUrl: ciCdDevops,
+      projURL: 'https://ci-cd-dashboard-dev-ops-monitor.vercel.app/'
+    },
+    {
       title: "RWC 2023 Predictions",
       description: "Web Application",
       imgUrl: rwcPredictor,
       projURL: 'https://rwc-2023-predictions.vercel.app/'
-    },
-    {
-      title: "VirtueVogue",
-      description: "E-Commerce",
-      imgUrl: shopping,
-      projURL: 'https://e-commerce-shop-mocha.vercel.app/home'
     },
     {
       title: "Fapple Inventory",
@@ -77,16 +78,16 @@ export const Projects = () => {
       projURL: 'https://dewaldfourie.github.io/Weather-App/#'
     },
     {
+      title: "VirtueVogue",
+      description: "E-Commerce",
+      imgUrl: shopping,
+      projURL: 'https://e-commerce-shop-mocha.vercel.app/home'
+    },
+    {
       title: "To-Do Application",
       description: "Web Application",
       imgUrl: todoApp,
       projURL: 'https://dewaldfourie.github.io/Todo-List/'
-    },
-    {
-      title: "Memory Game",
-      description: "Game",
-      imgUrl: memoryGame,
-      projURL: 'https://memory-game-wheat-nu.vercel.app/'
     },
     {
       title: "Admin Dashboard",
