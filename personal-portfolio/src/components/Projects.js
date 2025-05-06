@@ -12,6 +12,7 @@ import inventoryApp from "../assets/img/inventoryApp.png"
 import imagetaggingApp from "../assets/img/imagetaggingApp.png"
 import senseAi from "../assets/img/SenseAI.jpg"
 import ciCdDevops from "../assets/img/ci-cd-devops.png"
+import stockAnalyzer from "../assets/img/StockAnalyzer.png"
 
 import tindog from "../assets/img/tindog.png"
 import scoops from "../assets/img/heavenlyScoops.png"
@@ -60,10 +61,10 @@ export const Projects = () => {
       projURL:"https://blog-website-app-red.vercel.app"
     },
     {
-      title: "FINDR",
-      description: "Image Tagging App",
-      imgUrl: imagetaggingApp,
-      projURL: 'https://image-tagging-fullstack.vercel.app/'
+      title: "Reddit Stock Analyzer",
+      description: "Web Application",
+      imgUrl: stockAnalyzer,
+      projURL: 'https://github.com/DewaldFourie/stock-sentiment-analyzer'
     },
 
 
@@ -71,6 +72,12 @@ export const Projects = () => {
   ];
 
   const projects2 = [
+    {
+      title: "FINDR",
+      description: "Image Tagging App",
+      imgUrl: imagetaggingApp,
+      projURL: 'https://image-tagging-fullstack.vercel.app/'
+    },
     {
       title: "Weather Application",
       description: "Web Application",
@@ -82,12 +89,6 @@ export const Projects = () => {
       description: "E-Commerce",
       imgUrl: shopping,
       projURL: 'https://e-commerce-shop-mocha.vercel.app/home'
-    },
-    {
-      title: "To-Do Application",
-      description: "Web Application",
-      imgUrl: todoApp,
-      projURL: 'https://dewaldfourie.github.io/Todo-List/'
     },
     {
       title: "Admin Dashboard",

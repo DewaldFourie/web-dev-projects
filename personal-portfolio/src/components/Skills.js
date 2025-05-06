@@ -10,6 +10,7 @@ import sql from "../assets/img/sql.png"
 import bootstrap from "../assets/img/bootstrap.png"
 import java from "../assets/img/java.png"
 import api from "../assets/img/api.png"
+import typeS from "../assets/img/typescript.png"
 
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-responsive-3d-carousel'
@@ -21,8 +22,8 @@ export const Skills = () => {
 
     const items = [
         <div className="item">
-            <img src={javaS} alt="" />
-            <h5>JavaScript</h5>
+            <img src={typeS} alt="" />
+            <h5>TypeScript</h5>
         </div>,
         <div className="item">
             <img src={python} alt="" />
@@ -49,8 +50,8 @@ export const Skills = () => {
             <h5>SQL</h5>
         </div>,
         <div className="item">
-            <img src={bootstrap} alt="" />
-            <h5>Bootstrap</h5>
+            <img src={javaS} alt="" />
+            <h5>JavaScript</h5>
         </div>,
         <div className="item">
             <img src={java} alt="" />
