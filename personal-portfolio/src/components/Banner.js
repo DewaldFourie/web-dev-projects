@@ -49,7 +49,7 @@ export const Banner = () => {
   }
 
   const downloadResume = () => {
-    const resumeUrl = '/DewaldDevResume.pdf' //path to resume in public folder 
+    const resumeUrl = '/DF_DEV_May2025.pdf' //path to resume in public folder 
 
     const downloadLink = document.createElement('a');
     downloadLink.href = resumeUrl;
