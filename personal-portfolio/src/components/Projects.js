@@ -13,6 +13,7 @@ import imagetaggingApp from "../assets/img/imagetaggingApp.png"
 import senseAi from "../assets/img/SenseAI.jpg"
 import ciCdDevops from "../assets/img/ci-cd-devops.png"
 import stockAnalyzer from "../assets/img/StockAnalyzer.png"
+import wwChat from "../assets/img/wwChat.png"
 
 import tindog from "../assets/img/tindog.png"
 import scoops from "../assets/img/heavenlyScoops.png"
@@ -31,16 +32,16 @@ export const Projects = () => {
 
   const projects1 = [
     {
+      title: "WorkWire",
+      description: "Messaging App",
+      imgUrl: wwChat,
+      projURL: 'https://work-wire.vercel.app/'
+    },
+    {
       title: "SenseAI",
       description: "Facial Recognition App",
       imgUrl: senseAi,
       projURL: 'https://face-recognition-app-pink.vercel.app/'
-    },
-    {
-      title: "CI/CD DevOps Monitor",
-      description: "Web Application",
-      imgUrl: ciCdDevops,
-      projURL: 'https://ci-cd-dashboard-dev-ops-monitor.vercel.app/'
     },
     {
       title: "RWC 2023 Predictions",
@@ -49,11 +50,13 @@ export const Projects = () => {
       projURL: 'https://rwc-2023-predictions.vercel.app/'
     },
     {
-      title: "Fapple Inventory",
-      description: "Database Application",
-      imgUrl: inventoryApp,
-      projURL: 'https://fapple-inventory-app.glitch.me/catalog'
+      title: "CI/CD DevOps Monitor",
+      description: "Web Application",
+      imgUrl: ciCdDevops,
+      projURL: 'https://ci-cd-dashboard-dev-ops-monitor.vercel.app/'
     },
+    
+    
     {
       title: "Travel Blog",
       description: "CMS Application",
@@ -66,7 +69,7 @@ export const Projects = () => {
       imgUrl: stockAnalyzer,
       projURL: 'https://github.com/DewaldFourie/stock-sentiment-analyzer'
     },
-
+    
 
 
   ];
@@ -91,10 +94,10 @@ export const Projects = () => {
       projURL: 'https://e-commerce-shop-mocha.vercel.app/home'
     },
     {
-      title: "Admin Dashboard",
-      description: "Dashboard Design",
-      imgUrl: dashboard,
-      projURL: "https://dewaldfourie.github.io/Admin-Dashboard/",
+      title: "Fapple Inventory",
+      description: "Database Application",
+      imgUrl: inventoryApp,
+      projURL: 'https://fapple-inventory-app.glitch.me/catalog'
     },
     {
       title: "Battleship",
