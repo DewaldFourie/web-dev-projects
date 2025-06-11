@@ -48,15 +48,15 @@ export const Banner = () => {
     }
   }
 
-  const downloadResume = () => {
-    const resumeUrl = '' //path to resume in public folder 
+  // const downloadResume = () => {
+  //   const resumeUrl = '' //path to resume in public folder 
 
-    const downloadLink = document.createElement('a');
-    downloadLink.href = resumeUrl;
-    downloadLink.download = 'DewaldFourieResume2025.pdf';
+  //   const downloadLink = document.createElement('a');
+  //   downloadLink.href = resumeUrl;
+  //   downloadLink.download = 'DewaldFourieResume2025.pdf';
 
-    downloadLink.click();
-  }
+  //   downloadLink.click();
+  // }
 
   return (
     <section className="banner" id="home">
@@ -69,7 +69,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1 className="banner-title">{`Hi! I'm Dewald, a Dedicated`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Software Developer" ]'><span className="wrap">{text}</span></span></h1>
                 <p>I’m a problem-solving <strong>Software Developer</strong> passionate about building scalable, efficient, and user-friendly applications. My expertise includes <strong>TypeScript, React, Node.js, Python</strong>, and other modern web technologies. I thrive on learning, adapting, and pushing the boundaries of what’s possible with code.</p>
-                <button onClick={downloadResume}>Download Resume <ArrowDownCircle size={25} /></button>
+                <button>Download Resume <ArrowDownCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
